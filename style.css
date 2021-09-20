@@ -1,0 +1,107 @@
+
+.container{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------------------header---------------------------------------*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: cadetblue;
+    height: 10vh;
+    
+    
+}
+.menu {
+    list-style-type: none;
+    display:flex;
+}
+.list{
+    margin-left: 1vw;
+    margin-right: 5vw;
+}
+header >  nav >ul > li > a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    font-size: clamp(15px, 2vw , 20px);
+}
+header > nav > ul > li > a:hover{
+    color: darkgoldenrod;
+}
+
+.button-icon > i{
+    font-size: 3vw;
+    color:chocolate;
+   
+     margin-right: 7px;
+}
+.button-left{
+    border: none;
+    background-color: cadetblue;
+    width: 18vw;
+    height: 5vh;
+    
+}
+.button-text{
+   
+    
+    font-size: clamp(25px, 4vw , 40px);
+    
+}
+
+.login{
+
+    border: none;
+    background-color:cadetblue;
+    width: 8vw;  
+    
+
+}
+.login:hover{
+    color: darkorange;
+}
+
+.btn{
+    display:flex;
+    margin-left: 10vh;
+   justify-content:space-around;
+   text-decoration: none;
+   text-transform: capitalize;
+
+}
+
+.signup{
+    width:8vw;
+    border: none;
+    border-radius: 25vw;
+    background-color: black;
+    color: #ffffff;
+    height: 7vh;
+}
+.signup:hover{
+    color: rgb(7, 7, 6);
+    background-color: darkorange;
+}
+/*------------------------------------middle------------------------------------*/
+.middle{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.card-1 , .card-2{
+    margin: 2%;
+    padding:1-px;
+    background-color:antiquewhite;
+    width: clamp(570px, 25vw , 750px);
+    height: 72vh;
+    
+    border-radius: 30px;
+
+}
