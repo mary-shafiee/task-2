@@ -1,8 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+*{
+    font-family: 'Gluten', cursive;
+}
 .container{
     height: 100%;
     margin: 0;
     padding: 0;
+    
 }
 
 /*---------------------------------------------header---------------------------------------*/
@@ -75,7 +79,7 @@ header > nav > ul > li > a:hover{
 
 }
 
-.signup{
+.signup {
     width:8vw;
     border: none;
     border-radius: 25vw;
@@ -91,17 +95,59 @@ header > nav > ul > li > a:hover{
 .middle{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    
+    /* flex-wrap: wrap;   */
     
 }
 .card-1 , .card-2{
     margin: 2%;
     padding:1-px;
-    background-color:antiquewhite;
+    background-color:#ffffff;
     width: clamp(570px, 25vw , 750px);
     height: 72vh;
-    
     border-radius: 30px;
-
+    
+}
+.pic{
+    size: clamp(570px, 25vw , 750px);
+    border-radius: 30px;
+    align-self: center;
+    margin-top: 40px;
+   
+    
+}
+.topic , .text{
+    margin-top:clamp(40px , 20vw , 50px) ;
+    margin-left: clamp(30px , 10vw , 50px);
+}
+.text{
+    color: #23636E;
+}
+.get-started {
+    margin: clamp(30px , 8vw , 50px);
+    margin-right: 5px;
+    width:12vw;
+    border: none;
+    border-radius: 25vw;
+    background-color: rgb(194, 112, 112);
+    color: #ffffff;
+    height: 8vh;
+    position:relative;
+}
+.see{
+    margin: clamp(30px , 8vw , 50px);
+    margin-left: 0px;
+    width:12vw;
+    border: none;
+    border-radius: 25vw;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(194, 112, 112);
+    height: 8vh;
+    position:relative;
+}
+.get-started:hover {
+    background-color: #23636E;
+}
+.see:hover{
+    color:#23636E ;
 }
