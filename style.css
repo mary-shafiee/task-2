@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
 *{
     font-family: 'Gluten', cursive;
+    
 }
 .container{
     height: 100%;
@@ -95,13 +96,14 @@ header > nav > ul > li > a:hover{
 .middle{
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap;   */
+    flex-wrap: wrap; 
+    background-color: rgb(216, 228, 228); 
     
 }
 .card-1 , .card-2{
     margin: 2%;
     padding:1-px;
-    background-color:#ffffff;
+    background-color:rgb(216, 228, 228);
     width: clamp(570px, 25vw , 750px);
     height: 72vh;
     border-radius: 30px;
@@ -139,7 +141,7 @@ header > nav > ul > li > a:hover{
     width:12vw;
     border: none;
     border-radius: 25vw;
-    background-color: #ffffff;
+    background-color: rgb(216, 228, 228);
     border: none;
     color: rgb(194, 112, 112);
     height: 8vh;
